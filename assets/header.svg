@@ -17,13 +17,19 @@
   <path d="M0,160 C220,230 450,100 680,175 C780,205 850,180 900,155 L900,230 L0,230 Z" fill="#050505" />
   <path d="M0,145 C250,210 500,95 900,170 L900,230 L0,230 Z" fill="url(#waveGrad)" />
 
-  <!-- Twinkling Stars -->
-  <circle cx="120" cy="40" r="1.8" fill="#00B4FF"><animate attributeName="opacity" values="0.2;1;0.2" dur="2s" repeatCount="indefinite" /></circle>
-  <circle cx="780" cy="55" r="2.2" fill="#FFFFFF"><animate attributeName="opacity" values="1;0.2;1" dur="2.6s" repeatCount="indefinite" /></circle>
-  <circle cx="640" cy="30" r="1.5" fill="#00B4FF"><animate attributeName="opacity" values="0.1;0.9;0.1" dur="1.8s" repeatCount="indefinite" /></circle>
-  <circle cx="240" cy="115" r="1.5" fill="#FFFFFF"><animate attributeName="opacity" values="0.8;0.1;0.8" dur="2.2s" repeatCount="indefinite" /></circle>
+  <circle cx="120" cy="40" r="1.8" fill="#00B4FF">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="2s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="780" cy="55" r="2.2" fill="#FFFFFF">
+    <animate attributeName="opacity" values="1;0.2;1" dur="2.6s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="640" cy="30" r="1.5" fill="#00B4FF">
+    <animate attributeName="opacity" values="0.1;0.9;0.1" dur="1.8s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="240" cy="115" r="1.5" fill="#FFFFFF">
+    <animate attributeName="opacity" values="0.8;0.1;0.8" dur="2.2s" repeatCount="indefinite" />
+  </circle>
 
-  <!-- Main Title -->
-  <text x="450" y="92" fill="#00B4FF" font-family="&#39;Fira Code&#39;, &#39;JetBrains Mono&#39;, &#39;Segoe UI&#39;, monospace" font-size="64" font-weight="800" text-anchor="middle" letter-spacing="4">JARI-GAMING</text>
-  <text x="450" y="132" fill="#E2E8F0" font-family="&#39;Fira Code&#39;, &#39;JetBrains Mono&#39;, monospace" font-size="16" font-weight="600" text-anchor="middle" letter-spacing="2.5">GIFARI RAHMAN // CYBERSECURITY • AI & DEV</text>
+  <text x="450" y="92" fill="#00B4FF" font-family="Fira Code, JetBrains Mono, Segoe UI, monospace" font-size="64" font-weight="800" text-anchor="middle" letter-spacing="4">JARI-GAMING</text>
+  <text x="450" y="132" fill="#E2E8F0" font-family="Fira Code, JetBrains Mono, monospace" font-size="16" font-weight="600" text-anchor="middle" letter-spacing="2.5">GIFARI RAHMAN // CYBERSECURITY • AI • FULL-STACK DEV</text>
 </svg>
