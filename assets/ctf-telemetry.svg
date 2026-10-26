@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="220" viewBox="0 0 850 220">
+  <defs>
+    <linearGradient id="blueGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#004E98" />
+      <stop offset="50%" stop-color="#00B4FF" />
+      <stop offset="100%" stop-color="#00F5D4" />
+    </linearGradient>
+    <linearGradient id="barBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0A1118" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+  </defs>
+
+  <rect x="2" y="2" width="846" height="216" rx="8" fill="#050505" stroke="#00B4FF" stroke-width="1.5" stroke-opacity="0.5" />
+
+  <text x="25" y="34" fill="#00B4FF" font-family="&#39;Fira Code&#39;, &#39;JetBrains Mono&#39;, monospace" font-size="13" font-weight="700" letter-spacing="1.5">[+] TELEMETRY // JARI-GAMING CAPABILITY MATRIX</text>
+  <circle cx="818" cy="29" r="5" fill="#00B4FF">
+    <animate attributeName="opacity" values="1;0.2;1" dur="1.5s" repeatCount="indefinite" />
+  </circle>
+  <text x="802" y="33" fill="#00B4FF" font-family="&#39;Fira Code&#39;, monospace" font-size="11" text-anchor="end">ONLINE</text>
+  <line x1="25" y1="48" x2="825" y2="48" stroke="#00B4FF" stroke-width="1" stroke-opacity="0.25" />
+
+  <g font-family="&#39;Fira Code&#39;, monospace" font-size="12">
+    <text x="25" y="80" fill="#E2E8F0">01 // WEB & API SECURITY</text>
+    <rect x="260" y="68" width="490" height="14" rx="3" fill="url(#barBg)" stroke="#1E293B" stroke-width="1" />
+    <rect x="260" y="68" width="430" height="14" rx="3" fill="url(#blueGlow)">
+      <animate attributeName="width" from="0" to="430" dur="1.4s" fill="freeze" />
+    </rect>
+    <text x="820" y="80" fill="#00B4FF" text-anchor="end" font-weight="700">88%</text>
+
+    <text x="25" y="116" fill="#E2E8F0">02 // FULL-STACK & BACKEND</text>
+    <rect x="260" y="104" width="490" height="14" rx="3" fill="url(#barBg)" stroke="#1E293B" stroke-width="1" />
+    <rect x="260" y="104" width="445" height="14" rx="3" fill="url(#blueGlow)">
+      <animate attributeName="width" from="0" to="445" dur="1.6s" fill="freeze" />
+    </rect>
+    <text x="820" y="116" fill="#00B4FF" text-anchor="end" font-weight="700">91%</text>
+
+    <text x="25" y="152" fill="#E2E8F0">03 // AI & DATA SCIENCE</text>
+    <rect x="260" y="140" width="490" height="14" rx="3" fill="url(#barBg)" stroke="#1E293B" stroke-width="1" />
+    <rect x="260" y="140" width="415" height="14" rx="3" fill="url(#blueGlow)">
+      <animate attributeName="width" from="0" to="415" dur="1.8s" fill="freeze" />
+    </rect>
+    <text x="820" y="152" fill="#00B4FF" text-anchor="end" font-weight="700">85%</text>
+
+    <text x="25" y="188" fill="#E2E8F0">04 // CTF & RECON OPS</text>
+    <rect x="260" y="176" width="490" height="14" rx="3" fill="url(#barBg)" stroke="#1E293B" stroke-width="1" />
+    <rect x="260" y="176" width="400" height="14" rx="3" fill="url(#blueGlow)">
+      <animate attributeName="width" from="0" to="400" dur="2.0s" fill="freeze" />
+    </rect>
+    <text x="820" y="188" fill="#00B4FF" text-anchor="end" font-weight="700">82%</text>
+  </g>
+</svg>
