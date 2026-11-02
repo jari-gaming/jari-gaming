@@ -149,7 +149,7 @@
     alt="GitHub Streak"
   />
   <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=jari-gaming&layout=compact&theme=dark&bg_color=050505&title_color=00B4FF&text_color=FFFFFF&hide_border=true"
+    src="./assets/top-langs.svg"
     width="48%"
     alt="Top Languages"
   />

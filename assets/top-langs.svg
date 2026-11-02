@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195">
+  <rect x="0" y="0" width="495" height="195" rx="6" fill="#050505" />
+
+  <text x="25" y="38" fill="#00B4FF" font-family="Segoe UI, Ubuntu, sans-serif" font-size="20" font-weight="700">Most Used Languages</text>
+
+  <defs>
+    <clipPath id="barClip">
+      <rect x="25" y="55" width="445" height="10" rx="5" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#barClip)">
+    <rect x="25" y="55" width="445" height="10" fill="#1E293B" />
+    <rect x="25" y="55" width="161" height="10" fill="#f34b7d" />
+    <rect x="186" y="55" width="122" height="10" fill="#555555" />
+    <rect x="308" y="55" width="96" height="10" fill="#DA3434" />
+    <rect x="404" y="55" width="34" height="10" fill="#e34c26" />
+    <rect x="438" y="55" width="20" height="10" fill="#00B4AB" />
+    <rect x="458" y="55" width="12" height="10" fill="#563d7c" />
+  </g>
+
+  <g font-family="Segoe UI, Ubuntu, sans-serif" font-size="13" fill="#FFFFFF">
+    <circle cx="32" cy="92" r="6" fill="#f34b7d" />
+    <text x="46" y="97"><tspan font-weight="600">C++</tspan> 36.20%</text>
+
+    <circle cx="32" cy="126" r="6" fill="#555555" />
+    <text x="46" y="131"><tspan font-weight="600">C</tspan> 27.42%</text>
+
+    <circle cx="32" cy="160" r="6" fill="#DA3434" />
+    <text x="46" y="165"><tspan font-weight="600">CMake</tspan> 21.69%</text>
+
+    <circle cx="270" cy="92" r="6" fill="#e34c26" />
+    <text x="284" y="97"><tspan font-weight="600">HTML</tspan> 7.59%</text>
+
+    <circle cx="270" cy="126" r="6" fill="#00B4AB" />
+    <text x="284" y="131"><tspan font-weight="600">Dart</tspan> 4.58%</text>
+
+    <circle cx="270" cy="160" r="6" fill="#563d7c" />
+    <text x="284" y="165"><tspan font-weight="600">CSS</tspan> 2.53%</text>
+  </g>
+</svg>
